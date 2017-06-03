@@ -10,11 +10,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A9C138A9-AAC0-4A2A-86C9-68B60321648E}</ProjectGuid>
+    <ProjectGuid>{0EEE2131-31E6-4009-BBF7-1EF93F181088}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TOMT</RootNamespace>
-    <AssemblyName>TOMT</AssemblyName>
+    <RootNamespace>TOMT_Working</RootNamespace>
+    <AssemblyName>TOMT_Working</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -36,7 +36,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TOMT.Program</StartupObject>
+    <StartupObject>TOMT_Working.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FRC.CameraServer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -54,9 +54,6 @@
     <Reference Include="NativeLibraryUtilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\NativeLibraryUtilities.1.0.0\lib\net45\NativeLibraryUtilities.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -72,15 +69,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClassAssembler.cs" />
-    <Compile Include="objects\Command.cs" />
-    <Compile Include="objects\DoubleTalon.cs" />
-    <Compile Include="objects\Joystick.cs" />
-    <Compile Include="objects\Solenoid.cs" />
-    <Compile Include="objects\Talon.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="RobotMap.cs" />
-    <Compile Include="TOMT.cs" />
+    <Compile Include="TOMT_Working.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
